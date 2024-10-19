@@ -9,8 +9,7 @@ use Illuminate\View\Component;
 class Panel extends Component
 {
      public $title;
-
-    // O construtor aceita a propriedade $title
+    
     public function __construct($title = null)
     {
         $this->title = $title;
