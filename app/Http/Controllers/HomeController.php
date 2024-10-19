@@ -5,7 +5,6 @@ class HomeController extends Controller
 {
     public function index()
     {
-        // Simulando a obtenção de contas e usuários
         $contas = [
             (object) ['id' => 1, 'descricao' => 'Conta de Luz', 'valor' => 100, 'tipo' => 'A Pagar'],
             (object) ['id' => 2, 'descricao' => 'Conta de Água', 'valor' => 50, 'tipo' => 'A Pagar'],
@@ -32,7 +31,6 @@ class HomeController extends Controller
             (object) ['id' => 10, 'nome' => 'Patrícia', 'cargo' => 'Coordenadora', 'escolaridade' => 'Ensino Superior']
         ];
 
-        // Passando os dados para a view
         return view('home', compact('contas', 'usuarios'));
     }
 }
