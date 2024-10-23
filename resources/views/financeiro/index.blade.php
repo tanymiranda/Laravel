@@ -1,4 +1,4 @@
-<x-panel title="Financeiro - Contas">
+ <x-panel title="Financeiro - Contas">
 
     <a href="/financeiro/cadastrar" style="text-decoration: none;">
     <button style="margin-top: 10px; margin-left: 5px; color: white; text-decoration: none; padding: 8px 16px; display: inline-block; background-color: #333333; border-radius: 5px; text-align: center; cursor: pointer;">Cadastrar Nova Conta</button>
