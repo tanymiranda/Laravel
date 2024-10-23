@@ -3,7 +3,7 @@
     <h2 style="text-align: center; margin-top: 30px;">Cadastrar Nova Conta</h2>
     <form action="/financeiro" method="post" style="max-width: 500px; margin: 30px auto; padding: 20px; background-color: #D3D3D3; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
         @csrf
-
+ 
         <input type="text" name="descricao" placeholder="Descrição" required 
             style="width: 95%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px;">
 
