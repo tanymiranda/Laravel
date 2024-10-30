@@ -1,8 +1,11 @@
 <x-panel title="Usuários - Novo">
-
+    <!-- Campo para cadastrar -->
     <a href="/usuarios/cadastrar" style="text-decoration: none;">
-        <button style="margin-top: 10px; margin-left: 5px; color: white; text-decoration: none; padding: 8px 16px; display: inline-block; background-color: #333333; border-radius: 5px; text-align: center; cursor: pointer;">Cadastrar Novo Usuário</button>
+        <button style="margin-top: 10px; margin-left: 5px; color: white; text-decoration: none; padding: 8px 16px; display: inline-block; background-color: #333333; border-radius: 5px; text-align: center; cursor: pointer;"
+        onmouseover="this.style.backgroundColor='black'"
+        onmouseout="this.style.backgroundColor='#333333'">Cadastrar Novo Usuário</button>
     </a>
+      <!-- Campo usando foreach para exibir a lista da model -->
     <h1 style="text-align: center; margin-top: 30px;">Lista de Usuários</h1>
     <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 20px;">
         @foreach ($usuarios as $usuario)
